@@ -20,4 +20,4 @@ console.log( word.lastIndexOf("i") );
 
 //-----------------
 // using the second parameter we can start the search from a specific index
-console.log( word.indexOf("i", 4) );
+console.log( word.indexOf("i", 4) );  //5
