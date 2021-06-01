@@ -28,5 +28,13 @@ var parent = function parent() {
 // parent() will successfully execute: 5
 parent();
 
-// child() will fail
-child();
+// child() is undefined, ReferenceError
+// child();
+
+// defining another function beyond the scope of parent
+var secondChild = function secondChild() {
+  console.log(a + b);
+}
+
+// a (or b) is not defined, ReferenceError
+secondChild();
