@@ -25,11 +25,11 @@ var parent = function parent() {
   child();
 }
 
-// parent() will successfully execute: 5
+// parent() will successfully execute and output 5
 parent();
 
 // child() is undefined, ReferenceError
-// child();
+child();
 
 // defining another function beyond the scope of parent
 var secondChild = function secondChild() {
