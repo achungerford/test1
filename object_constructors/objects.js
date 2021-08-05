@@ -15,3 +15,9 @@ var objLiteral = {
   b: "object",
   c: "literal"
 }
+
+console.log("characteristics: ", objLiteral);
+
+// objects created from constructors
+let objConstructor1 = new Object(["object", "constructor", '1'])
+console.log(objConstructor1)

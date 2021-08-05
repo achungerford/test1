@@ -10,6 +10,10 @@
 //   }
 // }
 
+/* pass in a function - our function above is named 'handed'
+    usually this is done with the function written inside the forEach()
+    and not defined outside it */
+  
 // bigThree.forEach(handed)
 
 
