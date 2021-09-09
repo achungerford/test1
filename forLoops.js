@@ -19,7 +19,6 @@ let years = []
 for (let i = 2012; i <= 2021; i++) {
   years.push(i)
 }
-
 console.log(years)
 // console.log(years, typeof(years))
 
@@ -28,7 +27,5 @@ let seasons = []
 for (let i = 1; i <= 13; i++) {
   seasons.push(i)
 }
-
 // console.log(seasons, typeof(seasons[0]), typeof(years[0]))
-
 console.log(gms[01])

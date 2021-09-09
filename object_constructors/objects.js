@@ -8,7 +8,6 @@
  */
 
 // this is an object literal
-
 var objLiteral = {
   title: "objLiteral",
   a: "An",
@@ -19,5 +18,5 @@ var objLiteral = {
 console.log("characteristics: ", objLiteral);
 
 // objects created from constructors
-let objConstructor1 = new Object(["object", "constructor", '1'])
+let Obj1 = new Object(["object", "constructor", '1'])
 console.log(objConstructor1)
